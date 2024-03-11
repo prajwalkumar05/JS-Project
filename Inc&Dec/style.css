@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: bisque;
+    display: grid;
+    place-content: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+}
+
+.btns button{
+    margin: 0 12px;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h2{
+    font-size: 100px;
+}
+
+.title{
+    text-align: center;
+}
+
+.btns button{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 25px;
+}
+
